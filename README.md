@@ -7,7 +7,7 @@ Repositorio con mis apuntes y prácticas mientras aprendo Kubernetes, desde los 
 | Nº | Tema | Descripción |
 |----|------|-------------|
 | 1 | [Introducción](docs/1-Introduccion.md) | Qué es Kubernetes, para qué sirve y su arquitectura (clúster, nodos, plano de control). |
-| 2 | [Instalación](docs/2-Instalacion.md) | Montaje del entorno de trabajo: `kubectl` y un clúster local. |
+| 2 | [Instalación](docs/2-Instalacion.md) | Montaje del entorno de trabajo: clúster local con Minikube, `kubectl` y autocompletado. |
 | 3 | [Pods](docs/3-PODS.md) | La unidad mínima de Kubernetes: cómo crear, inspeccionar y eliminar Pods. |
 | 4 | [ReplicaSets](docs/4-ReplicaSets.md) | Cómo mantener un número fijo de réplicas de un Pod. |
 | 5 | [Deployments](docs/5-Deployement.md) | Despliegue de aplicaciones, actualizaciones progresivas y rollbacks. |
@@ -18,12 +18,14 @@ Repositorio con mis apuntes y prácticas mientras aprendo Kubernetes, desde los 
 kubernetes/
 ├── README.md
 ├── LICENSE
-└── docs/
-    ├── 1-Introduccion.md
-    ├── 2-Instalacion.md
-    ├── 3-PODS.md
-    ├── 4-ReplicaSets.md
-    └── 5-Deployement.md
+├── docs/
+│   ├── 1-Introduccion.md
+│   ├── 2-Instalacion.md
+│   ├── 3-PODS.md
+│   ├── 4-ReplicaSets.md
+│   └── 5-Deployement.md
+└── img/                  # Capturas, una carpeta por cada tema
+    └── 2-Instalacion/
 ```
 
 ## Cómo usar este repositorio
